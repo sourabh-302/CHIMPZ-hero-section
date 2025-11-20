@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <section className="bg-[url('/src/assets/bg.png')] min-h-screen bg-cover bg-center bg-no-repeat flex flex-col flex-nowrap">
+      <section className="bg-[url('/src/assets/bg.png')] min-h-screen bg-cover bg-center bg-no-repeat flex flex-col flex-nowrap  ">
         
         <Header />
 

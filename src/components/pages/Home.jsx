@@ -3,7 +3,7 @@ import image from "../../assets/gorilla.png";
 export default function Home() {
   return (
     <div className="flex grow justify-center items-center "> 
-    <div className="max-w-[1440px] mx-auto px-3">
+    <div className="max-w-[1270px] mx-auto px-3">
       <div className="flex flex-row flex-wrap -mx-3 items-center">
         
         <div className="flex w-full md:w-[58.33%] px-3">
@@ -23,7 +23,7 @@ export default function Home() {
 
             <p className="font-fira text-[16px] text-white pt-4 [text-shadow:1px_1px_4px_rgb(255,255,255)]">
               Dedicated to all the chimps around the world, we have created
-              a safe haven for all the risk-takers and degenerates who have
+              a safe haven for all the<br/> risk-takers and degenerates who have
               their helmets ready for the next moon landing.
             </p>
 
