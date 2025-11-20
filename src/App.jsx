@@ -6,15 +6,13 @@ import About from "./components/pages/About.jsx";
 import Buy from "./components/pages/Buy.jsx";
 import Tokenomics from "./components/pages/Tokenomics.jsx";
 import Roadmap from "./components/pages/Roadmap.jsx";
-import Discord from "./components/pages/Discord.jsx";
-import Twitter from "./components/pages/Twitter.jsx";
-import Telegram from "./components/pages/Telegram.jsx";
+ 
 import "./App.css";
 
 function App() {
   return (
     <>
-      <section className="bg-[url('/src/assets/bg.png')] min-h-screen bg-cover bg-center bg-no-repeat">
+      <section className="bg-[url('/src/assets/bg.png')] min-h-screen bg-cover bg-center bg-no-repeat flex flex-col flex-nowrap">
         
         <Header />
 
@@ -24,9 +22,7 @@ function App() {
           <Route path="/buy" element={<Buy />} />
           <Route path="/tokenomics" element={<Tokenomics />} />
           <Route path="/roadmap" element={<Roadmap />} />
-          <Route path="/discord" element={<Discord />} />
-          <Route path="/twitter" element={<Twitter />} />
-          <Route path="/telegram" element={<Telegram />} />
+          
         </Routes>
 
       </section>
